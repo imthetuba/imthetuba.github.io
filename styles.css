@@ -98,7 +98,7 @@ header p:last-of-type {
 
 /* Optional: Add a light hover effect on articles for interactivity */
 section article:hover {
-    background-color: #A9CEF4;
+    background-color: #c3daf2;
     padding-left: 10px;
     transition: 0.3s ease;
 }
