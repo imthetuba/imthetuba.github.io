@@ -9,8 +9,8 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    color: #333;
-    background-color: #f7f7f7;
+    color: #0b2545;
+    background-color: #8da9c4;
     padding: 20px;
 }
 
@@ -18,7 +18,7 @@ body {
 body > * {
     max-width: 800px;
     margin: auto;
-    background-color: #fff;
+    background-color: #eef4ed;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
@@ -98,7 +98,7 @@ header p:last-of-type {
 
 /* Optional: Add a light hover effect on articles for interactivity */
 section article:hover {
-    background-color: #f0f9ff;
+    background-color: #A9CEF4;
     padding-left: 10px;
     transition: 0.3s ease;
 }
