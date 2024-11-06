@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script>
+        function redirect(element) {
+            const url = element.getAttribute("data-url");
+            window.open(url, "_blank");
+        }
+    </script>
     <link rel="stylesheet" href="styles.css">
     
     <meta charset="UTF-8">
@@ -23,61 +29,47 @@
     <!-- Education section -->
     <section>
         <h2>Education</h2>
-        <a href="https://www.kth.se/utbildning/civilingenjor/industriell-ekonomi" target="_blank" rel="noopener noreferrer">
-            <article>
-                <h3>KTH Royal Institute of Technology, Stockholm, SWE (Swedish)</h3>
-                <p>August 2023 – Current</p>
-                <p>MSc Program (Civilingenjör i Industriell Ekonomi) in Industrial Engineering and Management at one of Europe’s top schools. Expected graduation May 2028. Studies include traditional engineering disciplines and mathematics, as well as Marketing and Economics, with a focus on problem-solving and structured thinking. <strong>GPA: 4.58/5</strong></p>
-            </article>
-        </a>
-        <a href="https://vu.nl/en/education/bachelor/computer-science" target="_blank" rel="noopener noreferrer">
-            <article>
-                <h3>Vrije Universiteit Amsterdam, Amsterdam, NL (English)</h3>
-                <p>September 2021 - December 2022</p>
-                <p>Three terms of Computer Science studies, covering multiple courses, including Computer Organization, Network Theory, Operating Systems & Statistical Methods. <strong>GPA: 8.7/10</strong></p>
-            </article>
-        </a>
-        <a href="https://internationalschoolalmere.nl/" target="_blank" rel="noopener noreferrer">
-            <article>
-                <h3>International School Almere, Almere, NL (English)</h3>
-                <p>August 2018 - May 2021</p>
-                <p>International Baccalaureate (IB) Diploma. Graduated top of class with 41 points. Head of Student Council.</p>
-            </article>
-        </a>
+        <article data-url="https://www.kth.se/utbildning/civilingenjor/industriell-ekonomi" onclick="redirect(this)">
+            <h3>KTH Royal Institute of Technology, Stockholm, SWE (Swedish)</h3>
+            <p>August 2023 – Current</p>
+            <p>MSc Program (Civilingenjör i Industriell Ekonomi) in Industrial Engineering and Management at one of Europe’s top schools. Expected graduation May 2028. Studies include traditional engineering disciplines and mathematics, as well as Marketing and Economics, with a focus on problem-solving and structured thinking. <strong>GPA: 4.58/5</strong></p>
+        </article>
+        <article data-url="https://vu.nl/en/education/bachelor/computer-science" onclick="redirect(this)">
+            <h3>Vrije Universiteit Amsterdam, Amsterdam, NL (English)</h3>
+            <p>September 2021 - December 2022</p>
+            <p>Three terms of Computer Science studies, covering multiple courses, including Computer Organization, Network Theory, Operating Systems & Statistical Methods. <strong>GPA: 8.7/10</strong></p>
+        </article>
+        <article  data-url="https://internationalschoolalmere.nl/" onclick="redirect(this)">
+            <h3>International School Almere, Almere, NL (English)</h3>
+            <p>August 2018 - May 2021</p>
+            <p>International Baccalaureate (IB) Diploma. Graduated top of class with <strong>41 points</strong> points. Head of Student Council.</p>
+        </article>
     </section>
 
     <!-- Experience section -->
     <section>
 
         <h2>Experience</h2>
-        <a href="https://www.kth.se/student/kurser/kurs/DD1317" target="_blank" rel="noopener noreferrer"></a>
-            <article>
-                <h3>KTH Royal Institute of Technology, Stockholm – Teachers Assistant Programeringsteknik DD1317(Swedish)</h3>
-                <p>October 2024 – Current</p>
-                <p>Helping students become proficient in Python, grading assignments, and explaining concepts.</p>
-            </article>
-        </a>
-        <a href="https://www.niras.se/" target="_blank" rel="noopener noreferrer"></a>
-            <article>
-                <h3>NIRAS via AcademicWork, Stockholm – IT-Technician (Swedish)</h3>
-                <p>August 2024 – Current</p>
-                <p>On-site IT technician for NIRAS AB Stockholm office. Aiding engineering consultants with technical issues, hardware malfunctioning, and installations. Developing problem-solving skills and proficiency with Windows 10 & 11 as well as Office 360.</p>
-            </article>
-        </a>
-        <a href="https://www.jimjacob.se/" target="_blank" rel="noopener noreferrer"></a>
-            <article>
-                <h3>Jim&Jacob, Stockholm – Waitress (Swedish)</h3>
-                <p>July 2023 – August 2024</p>
-                <p>Team-oriented role in a fast-paced environment focused on service and customer satisfaction. Demonstrated strong social skills, stress tolerance, and attention to detail. Restaurants include Chipirón NK, Chipirón Surbrunnsgatan, Copine, and Båtshaket.</p>
-            </article>
-        </a>
-        <a href="https://youngones.com/nl/" target="_blank" rel="noopener noreferrer"></a>
-            <article>
-                <h3>Young Ones and Personal Proprietorship, The Netherlands – Freelancer (Dutch)</h3>
-                <p>July 2021 – June 2022</p>
-                <p>Established and managed a personal proprietorship, freelancing mainly in the service industry, showcasing independence, organization, and adaptability.</p>
-            </article>
-        </a>
+        <article data-url="https://www.kth.se/student/kurser/kurs/DD1317" onclick="redirect(this)">
+            <h3>KTH Royal Institute of Technology, Stockholm – Teachers Assistant Programeringsteknik DD1317(Swedish)</h3>
+            <p>October 2024 – Current</p>
+            <p>Helping students become proficient in Python, grading assignments, and explaining concepts.</p>
+        </article>
+        <article data-url="https://www.niras.se/" onclick="redirect(this)">
+            <h3>NIRAS via AcademicWork, Stockholm – IT-Technician (Swedish)</h3>
+            <p>August 2024 – Current</p>
+            <p>On-site IT technician for NIRAS AB Stockholm office. Aiding engineering consultants with technical issues, hardware malfunctioning, and installations. Developing problem-solving skills and proficiency with Windows 10 & 11 as well as Office 360.</p>
+        </article>
+        <article data-url="https://www.jimjacob.se/" onclick="redirect(this)">
+            <h3>Jim&Jacob, Stockholm – Waitress (Swedish)</h3>
+            <p>July 2023 – August 2024</p>
+            <p>Team-oriented role in a fast-paced environment focused on service and customer satisfaction. Demonstrated strong social skills, stress tolerance, and attention to detail. Restaurants include Chipirón NK, Chipirón Surbrunnsgatan, Copine, and Båtshaket.</p>
+        </article>
+        <article data-url="https://youngones.com/nl/" onclick="redirect(this)">
+            <h3>Young Ones and Personal Proprietorship, The Netherlands – Freelancer (Dutch)</h3>
+            <p>July 2021 – June 2022</p>
+            <p>Established and managed a personal proprietorship, freelancing mainly in the service industry, showcasing independence, organization, and adaptability.</p>
+        </article>
 
     </section>
 

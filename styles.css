@@ -5,15 +5,7 @@
     box-sizing: border-box;
 }
 
-/*removing the underline of links for the articles*/
-a {
-    text-decoration: none;
-}
-a:visited,
-a:hover,
-a:active {
-    text-decoration: none;
-}
+
 
 /* Basic body styling */
 body {
