@@ -9,8 +9,8 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    color: #0b2545;
-    background-color: #8da9c4;
+    color: #252617;
+    background-color: #636B73;
     padding: 20px;
 }
 
@@ -18,7 +18,7 @@ body {
 body > * {
     max-width: 800px;
     margin: auto;
-    background-color: #eef4ed;
+    background-color: #929CA6;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
@@ -32,7 +32,7 @@ header {
 
 header h1 {
     font-size: 2em;
-    color: #2c3e50;
+    color: #540209;
 }
 
 header p {
@@ -41,7 +41,7 @@ header p {
 }
 
 header p a {
-    color: #3498db;
+    color: #A60311;
     text-decoration: none;
 }
 
@@ -51,10 +51,10 @@ header p a:hover {
 
 /* Section headings */
 h2 {
-    color: #2c3e50;
+    color: #540209;
     font-size: 1.6em;
     margin-top: 20px;
-    border-bottom: 2px solid #3498db;
+    border-bottom: 2px solid #A60311;
     padding-bottom: 5px;
 }
 
@@ -66,7 +66,7 @@ section article {
 
 section article h3 {
     font-size: 1.2em;
-    color: #3498db;
+    color: #A60311;
 }
 
 section article p {
@@ -87,7 +87,7 @@ ul li {
 
 /* Strong tags for emphasis */
 strong {
-    color: #2c3e50;
+    color: #5e020a;
 }
 
 /* Contact and reference text styling */
@@ -98,7 +98,7 @@ header p:last-of-type {
 
 /* Optional: Add a light hover effect on articles for interactivity */
 section article:hover {
-    background-color: #c3daf2;
+    background-color: #636B73;
     padding-left: 10px;
     transition: 0.3s ease;
 }
