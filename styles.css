@@ -5,6 +5,16 @@
     box-sizing: border-box;
 }
 
+/*removing the underline of links for the articles*/
+a {
+    text-decoration: none;
+}
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+}
+
 /* Basic body styling */
 body {
     font-family: Arial, sans-serif;
@@ -56,6 +66,10 @@ h2 {
     margin-top: 20px;
     border-bottom: 2px solid #2A7DB3; /* Bright blue border */
     padding-bottom: 5px;
+}
+
+section {
+    margin-bottom: 10px; 
 }
 
 /* Article styling for Education and Experience items */
